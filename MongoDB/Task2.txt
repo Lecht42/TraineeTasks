@@ -1,0 +1,1 @@
+posts.properties.find( { like : { $gte: 100 } } );

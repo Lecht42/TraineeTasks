@@ -1,0 +1,2 @@
+cd /var/www # Заходим в директорию
+ln -s /logs/access.log /html/softlink # Создаём софтлинк

@@ -1,0 +1,34 @@
+1)Табличный способ
+ 
+Сделать <table> ширина которой 100% и добавить в неё 5 столбцов, ширина каждого которого будет 20%. Полностью устаревший метод.
+
+Пример:
+
+<table width="100%">
+  <td>1</td>
+  <td>2</td>
+  <td>3</td>
+  <td>4</td>
+  <td>5</td>
+<table>
+
+2)CSS гриды
+
+Есть CSS контейнер, в котором располагаются элементы. В контейнере стоит свойство grid-template-columns: auto auto auto auto auto,
+который позволяет элементам делить экран на 5 столбцов который будет по 20% каждый.
+
+Пример:
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}

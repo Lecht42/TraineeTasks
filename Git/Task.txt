@@ -1,0 +1,8 @@
+git clone git@example.com:example/test.git # Клонируем репозиторий
+cd example # Монтируем директорию с проектом
+git checkout dev # Меняем текущий branch на dev
+
+#Вводим в Readme вот такой текст "### May be in future"
+
+git commit -m "add readme" # Фиксируем изменения
+git push origin dev # Отправляем

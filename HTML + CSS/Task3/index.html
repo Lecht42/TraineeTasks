@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<title>Task3</title>
+</head>
+<body>
+	<script type="text/javascript">
+	function disableButton(btn) {
+		document.getElementById(btn.id).disabled = true;
+        alert("Кнопка отключена");
+    }
+	</script>
+	<button id="onlyOneButton" onclick="disableButton(this)">Click me</button>
+</body>
+</html>

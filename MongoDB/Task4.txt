@@ -1,0 +1,6 @@
+posts.properties.find({}, {author:1, _id:0})
+
+posts.properties.aggregate( [
+   { $group: { _id: null,
+               total: { $sum: "$like" } } }
+] )

@@ -1,0 +1,1 @@
+posts.properties.insertOne({"_id": 11407,"title": "ExampleTitle","content": "ExampleText","author": Alex007, "like": 100,"dislike": 10})
